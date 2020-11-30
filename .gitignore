@@ -1,0 +1,6 @@
+db/*
+!db/.gitkeep
+.gitignore
+logs/*
+!logs/.gitkeep
+.idea
