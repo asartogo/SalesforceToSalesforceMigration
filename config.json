@@ -1,0 +1,34 @@
+{
+  "//1": "Basic config",
+  "salesforceLoginSource" : "XXXXX",
+  "salesforcePasswordSource" : "XXXXX",
+  "salesforceTokenSource" : "",
+  "salesforceIsSandboxSource" : false,
+  "salesforceLoginDestination" : "XXXXX",
+  "salesforcePasswordDestination" : "XXXXX",
+  "salesforceTokenDestination" : "",
+  "salesforceIsSandboxDestination" : false,
+  "defaultUserId": "0054M000004xTkI",
+  "defaultDocumentLibrary": "0584M000000JgDIQA0",
+  "entities" : [
+  ],
+  "includeAttachments": true,
+  "includeAuditFields": true,
+  "//10": "Advanced config",
+  "logFilePath" :  "./logs/",
+  "clearDatabase" : false,
+  "queryFilter": null,
+  "recordLimit": null,
+  "attachments" : ["User", "Account", "Contact", "Reference__c", "Integration__c", "Lead", "Opportunity", "IntegrationResold__c",  "EmailMessage", "Task", "Event"],
+  "externalIds" : {
+    "Attachment": "Description",
+    "ContentVersion": "APS_External_Id__c", "EmailMessage": "APS_External_Id__c", "User":  "EmployeeNumber",
+    "Account":  "APS_AccountId__c", "Contact":  "APS_External_Id__c", "Reference__c":  "APS_ReferenceId__c",
+    "Integration__c":  "APS_IntegrationId__c", "Lead":  "APS_External_Id__c", "Opportunity":  "APS_External_Id__c",
+    "IntegrationResold__c": "APS_External_Id__c", "Task": "APS_External_Id__c", "Event": "APS_External_Id__c"
+  },
+  "customBatchSizes": {
+    "Attachment": 1
+  },
+  "threads": 2
+}
