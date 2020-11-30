@@ -4,3 +4,4 @@ db/*
 logs/*
 !logs/.gitkeep
 .idea
+__pycache__
